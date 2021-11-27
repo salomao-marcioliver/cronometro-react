@@ -1,0 +1,30 @@
+@import url('//fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+html{
+    height: 800px;
+}
+
+.App{
+    margin-top: 200px;
+}
+
+
+button {
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 22px;
+    margin: 8px;
+}
+
+.tempo span{
+    font-weight: bold;
+    font-size: 64px;
+}
