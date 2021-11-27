@@ -32,13 +32,14 @@ function App() {
 
   return (
     <div className="App">
-      <div className='testefuleiro1'>
+      <div className=''>
         <MostrarTempo tempo={tempo} />
       </div>
-      <div className='testefuleiro2'>
+      <div className=''>
         <Button onClick={toggleRunning} content={running ? 'Pausar' : 'Iniciar'} />
         <Button onClick={reset} content='Reniciar' />
       </div>
+      <p className='author'>Desenvolvido por <strong>Salomão Marcioliver</strong></p>
     </div>
   );
 }
